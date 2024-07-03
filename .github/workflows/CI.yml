@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Step-One
-        run: echo "Meu primeiro passo no Github Actions"
-      - name: Step-Two
-        run: echo "Desenvolvido por Vinicius"
+        run: | 
+          echo "Meu primeiro passo no Github Actions"
+          echo "Desenvolvido por Vinicius"
